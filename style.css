@@ -93,7 +93,7 @@ body{
         gap: 4.5rem;
 }
 ul li a:hover{
-    color: orangered;
+    color: rgb(228, 83, 29);
 }
 
 .nav-third a{
@@ -549,7 +549,11 @@ option{
 
 
 
-
+@media (max-width:1150px){
+    .game-name,.social-media{
+        height: 20vh;
+    }
+}
 @media (max-width:1050px){
     html{
         font-size: 90%;
@@ -575,6 +579,10 @@ option{
     .card-data{
         gap: 2rem;
     }
+    .game-name,.social-media{
+        height: 20vh;
+    }
+}
     @media (max-width:700px){
         html{
             font-size: 80%;
@@ -600,7 +608,6 @@ option{
             padding-top: 2rem;
         }
         
-        }
     }
     @media (max-width:650px){
         .card-body{
@@ -632,7 +639,29 @@ option{
         #navbar{
             padding-top: 2rem;
         }
-       
+        .description p{
+            font-size: 1.2rem;
+        }
+        #navbar ul li a{
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .nav-first img{
+            padding-top: 2rem;
+        }
+        .nav-third a{
+            font-weight: bolder;
+        }
+        .prize .btn-ac{
+            font-size: 1rem;
+        }
+        .game-name,.social-media{
+            height: 14vh;
+        }
+        .game img{
+            width: 70%;
+        }
+        
     }
     @media (max-width:450px){
         .cards{
